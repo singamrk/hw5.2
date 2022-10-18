@@ -1,0 +1,80 @@
+/* general text formatting */
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 3px 0 0 0;
+}
+h1,
+h2,
+h3,
+nav,
+footer {
+  font-weight: 500;
+}
+legend {
+  background-color: var(--color-primary-1-900);
+  color: var(--color-primary-1-050);
+  margin: 0 auto;
+  width: 98%;
+  padding: 0.25em;
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+}
+fieldset {
+  margin: 0.5em auto;
+  background-color: var(--color-neutral-050);
+  border: solid 1px var(--color-neutral-100);
+  width: 90%;
+}
+
+div#search,
+div#settings,
+div#painting {
+  background-color: var(--color-neutral-100);
+}
+
+div#painting {
+  background-color: var(--color-neutral-100);
+}
+table thead {
+  background-color: var(--color-primary-1-050);
+}
+caption {
+  background-color: var(--color-primary-1-800);
+  color: var(--color-primary-1-050);
+}
+#search {
+  margin-top: 15px;
+  padding: 20px 0px;
+}
+#settings {
+  margin-top: 15px;
+  padding: 20px 0px;
+}
+.browsers {
+  width: 20px;
+}
+
+#painting th {
+  background-color: rgb(207, 216, 219);
+}
+table {
+  width: 98%;
+}
+
+input[type="submit"] {
+  background-color: rgb(9 66 69);
+  color: aliceblue;
+  border-radius: 6px;
+}
+input[type="button"] {
+  background-color: rgb(9 66 69);
+  color: aliceblue;
+  border-radius: 6px;
+}
+table tr:nth-child(even) {
+  background-color: #f6eed7;
+}
